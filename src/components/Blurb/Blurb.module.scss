@@ -1,0 +1,29 @@
+.Blurb {
+    margin: 1rem 0 2rem 0;
+    &__Heading {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+    }
+
+    &__Paragraph {
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 2.7rem;
+        color: #686868;
+
+        @media screen and (min-width: 900px) {
+            width: 50%;
+        }
+
+        &___Hash {
+            box-sizing: border-box;
+            padding: 0.3rem;
+            font-size: 1.2rem;
+            background-color: #e8e8e8;
+            border-radius: 0.5rem;
+            margin: 0 0.2rem;
+            padding: 0.1rem 0.6rem;
+        }
+    }
+}
