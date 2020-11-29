@@ -9,10 +9,10 @@ const Layout = () => {
 
 
     return(
-        <div className={classes.Layout}>
+        <main className={classes.Layout}>
             <Blurb />
             <Masory />
-        </div>
+        </main>
     )
 }
 

@@ -13,7 +13,7 @@ import classes from "./Header.module.scss";
 const Header = () => {
 
     return (
-        <div className={classes.Header}>
+        <header className={classes.Header}>
             <div className={classes.Header__GoBack}>
                 <svg>
                 <use xlinkHref={sprite + "#icon-chevron-thin-left"} />
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
 
             <Nav />
-        </div>
+        </header>
     )
 }
 
