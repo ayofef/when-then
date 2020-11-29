@@ -9,6 +9,24 @@ import Card from "../../components/Card/Card";
 
 //Satefull component that display our card in a masory layout and also makes a request to our api.
 
+
+
+//Data returned from our API has Images, I created this to test and visualise what it would looked like
+const TEST_DATA = {
+    
+    id: "h74jd",
+    createdAt: "2030-03-14T05:15:22.902Z",
+    image: "",
+    text: "discrete",
+    ownerName: "Malinda Cruickshank",
+    ownerImage: "",
+    likes: 1,
+    comments: 2
+      
+}
+
+
+
 const MasoryContainer = () => {
 
     const [data, setData] = useState([]);
@@ -18,7 +36,7 @@ const MasoryContainer = () => {
         axios.get()
         .then((res) => {
             const apiData = res.data;
-            setData(apiData);
+            setData([TEST_DATA, ...apiData]); //adding test data with API DATA 
             //console.log(apiData);
         })
         .catch((err) => {
