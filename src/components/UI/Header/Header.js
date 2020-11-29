@@ -15,11 +15,9 @@ const Header = () => {
     return (
         <div className={classes.Header}>
             <div className={classes.Header__GoBack}>
-                <a href="https://whenthen.com/" >
                 <svg>
                 <use xlinkHref={sprite + "#icon-chevron-thin-left"} />
                 </svg>
-                </a>
             </div>
 
             <Nav />
