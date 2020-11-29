@@ -23,47 +23,35 @@ const Nav = () => {
 
             <ul>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <img src={face} alt=" by Alexander Krivitskiy - Unsplash"/>
-                    </a>
                 </li>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <img src={face} alt=" by Alexander Krivitskiy - Unsplash"/>
-                    </a>
                 </li>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <img src={face} alt=" by Alexander Krivitskiy - Unsplash"/>
-                    </a>
                 </li>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <svg>
                     <use xlinkHref={sprite + "#icon-person_add"} />
                     </svg>
-                    </a>
                 </li>
                 
             </ul>
 
             <ul>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <svg>
                     <use xlinkHref={sprite + "#icon-share-alternitive"} />
                     </svg>
-                    </a>
                 </li>
             </ul>
 
             <ul>
                 <li>
-                    <a href="https://whenthen.com/" >
                     <svg>
                     <use xlinkHref={sprite + "#icon-dots-three-horizontal"} />
                     </svg>
-                    </a>
                 </li>
             </ul>
             

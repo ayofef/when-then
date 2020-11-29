@@ -41,6 +41,8 @@ const MasoryContainer = () => {
         <Masonry
             style={{outline: "none"}}
 
+            role="list"
+
           // Provides the data for our grid items
           items={data}
 

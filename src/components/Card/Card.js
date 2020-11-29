@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import CardContent from "./CardFooter/CardContent";
+import CardContent from "./CardContent/CardContent";
 
 
 

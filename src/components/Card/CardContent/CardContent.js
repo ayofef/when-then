@@ -28,7 +28,7 @@ const CardContent = ({text, ownerName, likes, comments, image, liked, handleLike
                image && <img className={classes.CardContent__Image} src={image} alt={text}/>
             }
             
-            <h3 className={classes.CardContent__Heading}>{capitalize(text)}</h3>
+            <p className={classes.CardContent__Heading}>{capitalize(text)}</p>
 
             <div className={classes.CardContent__Footer}>
 
